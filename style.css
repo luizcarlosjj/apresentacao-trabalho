@@ -34,13 +34,17 @@ body {
   -webkit-backdrop-filter: blur( 13.5px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
+  width: 80%;
+  height: 20%;
+  bottom: 0;
 }
 
 .btd {
-  display: flex;
-  align-items: center;
   justify-content: center;
   margin-top: -400px;
+  position: relative;
+  min-height: 150px;
+  width: 350px;
 }
 
 footer {
